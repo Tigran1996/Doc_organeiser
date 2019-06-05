@@ -42,7 +42,7 @@ p,h4,h5,h6{
 a{
 	font-family: 'Metropolis';
 }
-button{
+button,span{
 	font-family: 'Metropolis Light';
 }
 *{
@@ -77,6 +77,7 @@ button{
     text-align: justify;
     padding: 40px 0px;
 }
+
 .background h2{
 	color: #fff;
 }
@@ -244,17 +245,19 @@ button{
 	width: 100%;
 }
 .gold_circle{
-	display: flex;
+    display: flex;
     background-color: #e7c935;
     border-radius: 50%;
     width: 100%;
-    height: 25px;
+    height: 30px;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size: 15px;
-    max-width: 25px;
+    max-width: 30px;
     margin-right: 12px;
+    color: #fff;
+    padding: 2px;
 }
 .gold_circle{
 	padding-left: 3px;
@@ -357,4 +360,305 @@ footer h5{
     font-size: 80%;
     word-break: break-word;
     color: #dc3545;
+}
+/*how it works*/
+.background_how{
+    background-image: url(../img/how_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: justify;
+    padding: 40px 0px;
+}
+.background_how .col-sm-12{
+    padding: 0px 20px;
+    color: #fff;
+    text-align: center;
+}
+.background_how h1{
+    color: #fff;
+}
+.text{
+    text-align: center;
+    margin: 10px auto;
+}
+.text_header{
+    display: flex;
+    align-items: center;
+
+}
+.text_header p{
+    margin-bottom: 0;
+    border-bottom: 1px solid #e7c935;
+}
+.text_blocks{
+    margin-top: 50px;
+    justify-content: space-between;
+}
+section{
+    margin: 60px auto;
+}
+.texts_subtitle{
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text_blocks img{
+    width: 100%;
+    max-width: 500px;
+    object-fit: contain;
+    max-height: 390px;
+
+}
+.background_how2{
+    background-image: url(../img/how_bg2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: justify;
+    padding: 40px 0px;
+}
+.background_how2 .col-sm-12{
+    padding: 0px 20px;
+    color: #fff;
+    text-align: center;
+}
+.background_how2 h1{
+    color: #fff;
+}
+.background_how2 button{
+    color: #fff;
+    background: #315591;
+    outline: navajowhite;
+    border: 0;
+    padding: 6px 41px;
+}
+.reverse :nth-child(2){
+    display: flex;
+    flex-direction: row-reverse;    
+}
+/*contact*/
+.background_cont{
+    background-image: url(../img/cont_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: justify;
+    padding: 40px 0px;
+}
+.background_cont .col-sm-12{
+    padding: 0px 20px;
+    color: #fff;
+    text-align: center;
+}
+.background_cont h1{
+    color: #fff;
+}
+.contInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contInfo span{
+    color: rgba(0, 0, 0, 0.62);
+    font-weight: 500;
+}
+.Contact_information{
+    justify-content: space-around;
+    padding: 0px 40px;
+    margin: 80px auto;
+}
+.contact_form{
+    margin: 60px auto;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+.contact_form hr{
+    width: 42%;
+    height: 2px;
+    background: #315591;
+    display: flex;
+    align-items: flex-start;
+    margin: 18px 4px;
+}
+.contact_form label{
+    font-weight: 500;
+    margin-left:20px;
+    text-transform: uppercase;
+
+}
+.contact_form button{
+    color: #fff;
+    background: #315591;
+    outline: navajowhite;
+    border: 0;
+    padding: 6px 41px;
+}
+.map{
+    -webkit-box-shadow: 15px -19px 0px -2px rgba(49,85,145,1);
+    -moz-box-shadow: 15px -19px 0px -2px rgba(49,85,145,1);
+    box-shadow: 15px -19px 0px -2px rgba(49,85,145,1);
+}
+.map iframe{
+        border: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 435px;
+
+}
+.contact_form .form-control{
+    border-radius: 0px;
+}
+/*blog*/
+.background_Blog{
+    background-image: url(../img/blog_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: justify;
+    padding: 40px 0px;
+}
+.background_Blog .col-sm-12{
+    padding: 0px 20px;
+    color: #fff;
+    text-align: center;
+}
+.background_Blog h1{
+    color: #fff;
+}
+.border{
+    border: 1px solid #000;
+
+}
+.blog_row1{
+    justify-content: space-around;
+}
+.blog_sidebar1 ul{
+    padding: 0px;
+}
+.blog_sidebar1 span{
+    font-weight: 500;
+    margin-bottom: 5px;
+        font-size: 22px;
+}
+.blog_sidebar1 li{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.post{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #dee2e6!important;
+    margin: 10px;
+}
+.post img{
+        width: 100%;
+    object-fit: cover;
+}
+.post h6{
+    color: #315591;
+}
+.justify{
+        padding: 10px;
+}
+.one_line{
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #9d9e9e;
+}
+.like{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40px;
+
+}
+.post a{
+    text-decoration: none;
+    color:#000; 
+}
+.post a span{
+    color: #315591;
+}
+.blog{
+    display: flex;
+    flex-wrap: inherit;
+}
+.pop_posts img{
+    width: 100%;
+    object-fit: contain;
+    max-width: 150px;
+}
+.blog_sidebar1{
+    padding: 10px;
+    margin-top: 10px;
+}
+.blog_sidebar2{
+    padding: 10px;
+}
+.pop_posts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pop_text{
+        margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 14px;
+}
+.blog_sidebar3{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.blog_sidebar3 h3{
+    border-bottom: 1px solid #315591;
+    padding-bottom: 10px;
+}
+.blog_sidebar3 form input{
+    background: #e4e4e4;
+
+}
+.border p {
+    font-family: 'Metropolis Light';
+    font-size: 12px;
+}
+.post p {
+    font-family: 'Metropolis Light';
+    font-size: 12px;
+}
+.blue_button{
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #315591;
+    padding: 4px 10px;
+    margin: 10px;
+}
+.blue_button:hover{
+    color: #fff;
+    background-color: #315591;
+    border: 1px solid #315591;
+   
+}
+.pages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
 }
